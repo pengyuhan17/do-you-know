@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你知道吗?</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- 引入外部CSS样式文件 -->
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="你知道吗?">
+    <meta name="keywords" content="你知道吗, 小网站, 无聊, 好玩">
+    <meta name="author" content="pengyuhan17">
+</head>
+<body>
+    <!-- 容器 -->
+    <div class="container">
+        <!-- 标题和描述栏 -->
+        <div class="header">
+            <h1>你知道吗?</h1>
+            <p>嗨😀!在这里了解更多奇奇怪怪的知识...</p>
+        </div>
+        <!-- 冷知识卡片 -->
+        <div class="card">
+            <div class="card-content" id="fact-container">
+                <!-- 显示冷知识的区域 -->
+                <p id="fact">点击刷新按钮获取冷知识</p>
+            </div>
+            <!-- 刷新按钮 -->
+            <div class="refresh-btn" onclick="loadRandomFact()">🔄</div>
+        </div>
+    </div>
+
+    <!-- GitHub 链接图标 -->
+    <a href="https://github.com/pengyuhan17/do-you-know" target="_blank" class="github-link">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+    </a>
+
+    <!-- 引入外部JavaScript文件 -->
+    <script src="facts.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

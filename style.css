@@ -1,0 +1,93 @@
+/* 容器样式 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 标题和描述栏样式 */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* 冷知识卡片样式 */
+.card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* 冷知识内容样式 */
+.card-content {
+    flex: 1;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+.card-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+
+/* 刷新按钮样式 */
+.refresh-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* GitHub 链接图标样式 */
+.github-link {
+    position: fixed;
+    bottom: 5px; /* 更靠近底部 */
+    right: 5px; /* 更靠近右侧 */
+}
+
+.github-link img {
+    width: 40px;
+    height: 40px;
+}
+
+/* 代码块样式 */
+code {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 90%;
+    color: #333;
+}
+
